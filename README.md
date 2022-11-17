@@ -47,9 +47,12 @@ Cuando un conjunto de usuarios consulta un enésimo número (superior a 1000000)
 * ¿Qué es serverless?
 - Es un modelo de computacion que funciona como su nombre lo dice sin servidor fisico, en lugar de eso usa servidores virtuales en la nube la cual se encarga de asignar los recursos necesarios para todas las peticones que se realices
 * ¿Qué es el runtime y que implica seleccionarlo al momento de crear el Function App?
-- 
+- Se usa para pasar o retornar valores desde funciones o a las funciones. Lo creamos por que, en este caso, no sirve para pasarle un valor a la funcion de fibonacci, el cual queremos que calcule
 * ¿Por qué es necesario crear un Storage Account de la mano de un Function App?
+Para guardar datos de la funcion
 * ¿Cuáles son los tipos de planes para un Function App?, ¿En qué se diferencias?, mencione ventajas y desventajas de cada uno de ellos.
+![image](https://user-images.githubusercontent.com/98189066/202346870-b45369a2-2594-42b5-bb42-60ade5a0bd2e.png)
+Tanto el plan de consumo como el plan premium escalan de forma automatica . El plan de consumo es dinamivo para el trato y manejo de las funciones. El plan premium ejecuta instancias de forma eficaz y ejecuta aplicaciones sin retraso. Por ultimo, el plan dedicado es mucho memjor para planes de ejecucion prolongada.
 * ¿Por qué la memoization falla o no funciona de forma correcta?
 * ¿Cómo funciona el sistema de facturación de las Function App?
 * Informe

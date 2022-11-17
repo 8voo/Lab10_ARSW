@@ -43,8 +43,11 @@ Cuando un conjunto de usuarios consulta un enésimo número (superior a 1000000)
 **Preguntas**
 
 * ¿Qué es un Azure Function?
+- Es un servicio que proporciona la nube de azure que sirve para tener toda la infraestrctura y recursos que se necesitan para las aplicaciones
 * ¿Qué es serverless?
+- Es un modelo de computacion que funciona como su nombre lo dice sin servidor fisico, en lugar de eso usa servidores virtuales en la nube la cual se encarga de asignar los recursos necesarios para todas las peticones que se realices
 * ¿Qué es el runtime y que implica seleccionarlo al momento de crear el Function App?
+- 
 * ¿Por qué es necesario crear un Storage Account de la mano de un Function App?
 * ¿Cuáles son los tipos de planes para un Function App?, ¿En qué se diferencias?, mencione ventajas y desventajas de cada uno de ellos.
 * ¿Por qué la memoization falla o no funciona de forma correcta?

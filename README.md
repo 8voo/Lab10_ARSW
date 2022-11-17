@@ -55,4 +55,8 @@ Para guardar datos de la funcion
 Tanto el plan de consumo como el plan premium escalan de forma automatica . El plan de consumo es dinamivo para el trato y manejo de las funciones. El plan premium ejecuta instancias de forma eficaz y ejecuta aplicaciones sin retraso. Por ultimo, el plan dedicado es mucho memjor para planes de ejecucion prolongada.
 * ¿Por qué la memoization falla o no funciona de forma correcta?
 * ¿Cómo funciona el sistema de facturación de las Function App?
+Consta de dos planes
+1. Pago por uso: Se paga por capacidad de proceso por segundo, sin compromisos a largo plazo ni pagos por adelantado. 
+2. Plan de ahorro de Azure para Compute: omprometerse a gastar una cantidad fija por hora durante 1 o 3 años, desbloqueando los precios más bajos hasta que alcance su compromiso por hora
 * Informe
+![image](https://cdn.discordapp.com/attachments/898369871912534016/1042590153434206208/image.png)

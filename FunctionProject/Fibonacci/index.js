@@ -1,11 +1,11 @@
-var bigInt = require("big-integer");
-module.exports = async function (context, req) {
+import { one, zero } from "big-integer";
+export default async function (context, req) {
     context.log('JavaScript HTTP trigger function processed a request.');
 
     let nth = req.body.nth
-    let nth_1 = bigInt.one;
-    let nth_2 = bigInt.zero;
-    let answer = bigInt.zero;
+    let nth_1 = one;
+    let nth_2 = zero;
+    let answer = zero;
 
     if (nth < 0)
         throw 'must be greater than 0'
